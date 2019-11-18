@@ -17,3 +17,9 @@ Java
 #### Lessons Learned
 
 Executing simple math on doubles can result in small differences from integer math.  This program avoids that issue by adding a buffer such that the buffer doesn't impact the calculation of change yet it prevents calculation issues due to usage of double variables.
+
+#### Potential Updates
+
+- Utilize arrays for the bill/coin amount, bill/coin count, and the string text needed for each amount.
+- Create loop for user to calculate change for multiple transactions.
+- Create 'give a penny/take a penny' to simplify some transactions (e.g. customer charged $1.01, provides $2).
